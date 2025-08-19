@@ -1,0 +1,10 @@
+name = "d1-proxy-service"  # 符合规范的worker名称
+main = "index.js"
+compatibility_date = "2024-08-01"
+
+# D1数据库绑定配置
+[[d1_databases]]
+binding = "db"  # 与代码中的env.db对应
+database_name = "db"  # 替换为你的数据库名称
+database_id = "99fe4115-fd67-4c34-b175-998035d6a661"  # 替换为你的数据库ID
+    
